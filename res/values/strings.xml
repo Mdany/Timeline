@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Timeline</string>
+    <string name="action_settings">Settings</string>
+    <string name="camera">拍照</string>
+    <string name="text">文本</string>
+    <string name="week">周</string>
+    <string name="month">月</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="dialog">点我开始</string>
+    <string name="str_button1">设置</string>
+    <string name="str_button2">删除</string>
+    <string name="str_title3">记录时间</string>
+    <string name="str_default">无设置</string>
+    <string name="hello">开始记录你美好的一天吧！</string>
+    <string name="set">请设定你要每天提醒的时间！</string>
+
+</resources>

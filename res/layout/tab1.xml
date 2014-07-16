@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clockbackgrund" >
+
+    <DigitalClock
+        android:id="@+id/dClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="125dp"
+        android:layout_y="36dp"
+        android:textColor="@drawable/blue"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/mButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_x="306dp"
+        android:layout_y="128dp"
+        android:text="@string/str_button2"
+        android:textColor="@drawable/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/mButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_x="253dp"
+        android:layout_y="128dp"
+        android:text="@string/str_button1"
+        android:textColor="@drawable/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="136dp"
+        android:text="@string/str_title3"
+        android:textColor="@drawable/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/setTime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="139dp"
+        android:text="@string/str_default"
+        android:textColor="@drawable/red"
+        android:textSize="15sp" />
+
+</AbsoluteLayout>
